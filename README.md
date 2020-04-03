@@ -1,11 +1,12 @@
-# busquedaProductosVendedor
 Forma de utilizar:
-Ejecutar el archivo "datosProductosVendedor.sh" Si se desea buscar otro usuario se tiene que ingresar en el archivo llamado "datosProductosVendedor" y modificar la variable "user_id" en la linea 7.
+En la terminal ejecutar "user@host:~$ ./datosProductosVendedor.sh". 
 
-Crea archivo con todos los productos de un vendedor con los titulos "id" de producto, "Titulo" del producto, "categoria" donde se encuentra publicado y "nombre" de la categoria.
+Dentro del archivo datosProductosVendedor.sh se encuentra el usuario en ña variable de entrada "user_id", por default busca el user_id: 179571326
 
-Formato de salida.
+Se crean dos archivos como output:
+1 - DatosGeneral.json.json: El cual contiene el json devuelto por la consulta de datos del vendedor.
+2 - Log.txt: Contiene todos todos los productos de un vendedor con los titulos "id" de producto, "Titulo" del producto, "categoria" donde se encuentra publicado y "nombre" de la categoría.
+
+Ejemplo formato de salida.
   Id                              Titulo                   Categoria    Nombre
 MLA843116615 | Monitor Dell P2419h Led 24 Negro 110v/220v | MLA14407 | Monitores
-
-En el archivo llamado "Log.txt" se muestra el resultado final del usuario "179571326".
